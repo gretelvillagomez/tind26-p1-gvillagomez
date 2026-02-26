@@ -62,9 +62,170 @@ body{
     align-items: center;
     color: #d0a348;
 }
-
 .formulario-busqueda button:hover {
     background-color: #550a99;
+}
+.contenido-principal {
+    background-color: #ffffff;
+}
+
+.seccion-destacada {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.texto-destacado {
+    flex: 1;
+}
+
+.texto-destacado h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.texto-destacado p {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+    max-width: 350px;
+}
+
+.acciones-destacadas {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-secundario {
+    background-color: #f5a800;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primario {
+    background-color: #f5a800;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secundario:hover,
+.btn-primario:hover {
+    background-color: #d48e00;
+}
+
+.formulario-cita {
+    background-color: #e0115f;
+    border-radius: 6px;
+    padding: 20px;
+    width: 340px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-cita h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.fila-formulario {
+    display: flex;
+    gap: 10px;
+}
+
+.formulario-cita input,
+.formulario-cita textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.formulario-cita input:focus,
+.formulario-cita textarea:focus {
+    outline: 2px solid #f5a800;
+}
+
+.formulario-cita textarea {
+    resize: vertical;
+    min-height: 75px;
+}
+.btn-enviar {
+    background-color: #f5a800;
+    color:  #e0115f; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-enviar:hover {
+    background-color: #d48e00;
+}
+
+.seccion-servicios {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.servicio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 30px 50px;
+    border-right: 1px solid #dddddd;
+}
+
+.servicio-item:last-child {
+    border-right: none;
+}
+
+.servicio-item span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicio-item .iconos {
+    width: 32px;
+    height: 32px;
+    color: #6a0dad;
+}
+
+.servicio-item p {
+    color: #333333;
+    font-size: 13px;
 }
 footer{
     background-color: blueviolet;
