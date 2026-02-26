@@ -1,8 +1,72 @@
-header{
-    background-color: rgb(76, 15, 156);
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: auto;
 }
-header h1{
-    float: right;
+body{
+    font-family: "Noto-sans, sans-serif";
+    font-size: 14px;
+}
+.encabezado-sitio {
+    background-color: #40009a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 55px;
+}
+
+.logo-sitio h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navegacion-principal ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.navegacion-principal ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 12px;
+}
+
+.navegacion-principal ul li a:hover {
+    text-decoration: underline;
+}
+
+.formulario-busqueda {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.formulario-busqueda input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    width: 150px;
+}
+
+.formulario-busqueda button {
+    background-color:#40009a;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #d0a348;
+}
+
+.formulario-busqueda button:hover {
+    background-color: #550a99;
+}
+footer{
+    background-color: blueviolet;
     color: white;
 }
