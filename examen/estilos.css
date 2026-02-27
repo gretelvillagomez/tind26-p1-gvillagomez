@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    margin: auto;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    font-family: "Noto-sans, sans-serif";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 .encabezado-sitio {
@@ -15,9 +16,11 @@ body{
     height: 55px;
 }
 .logo-sitio h3 {
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
+    padding-left: 20%;
 }
 .navegacion-principal ul {
     list-style: none;
@@ -25,9 +28,10 @@ body{
     gap: 5px;
 }
 .navegacion-principal ul li a {
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     padding: 6px 12px;
 }
 
@@ -39,6 +43,7 @@ body{
     display: flex;
     align-items: center;
     gap: 5px;
+    padding-right: 5%;
 }
 
 .formulario-busqueda input {
@@ -62,11 +67,10 @@ body{
 .formulario-busqueda button:hover {
     background-color: #550a99;
 }
-.contenido-principal {
-    background-color: #ffffff;
-}
-
 .seccion-destacada {
+    background-color: white;
+}
+.contenido-principal {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -75,11 +79,9 @@ body{
     margin: 0 auto;
     padding: 50px 20px;
 }
-
 .texto-destacado {
     flex: 1;
 }
-
 .texto-destacado h2 {
     font-size: 30px;
     font-weight: bold;
@@ -87,46 +89,44 @@ body{
     margin-bottom: 12px;
     line-height: 1.2;
 }
-
 .texto-destacado p {
     color: #555555;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bolder;
     line-height: 1.6;
     margin-bottom: 22px;
-    max-width: 350px;
+    max-width: 550px;
 }
-
 .acciones-destacadas {
     display: flex;
     gap: 10px;
 }
-
 .btn-secundario {
     background-color: #f5a800;
-    color: #ffffff;
+    color: black;
+    font-weight: bolder;
     border: none;
     padding: 10px 22px;
-    font-size: 13px;
+    font-size: 14px;
     border-radius: 5px;
     cursor: pointer;
 }
-
 .btn-primario {
     background-color: #f5a800;
-    color: #ffffff;
+    color: black;
+    font-weight: bolder;
     border: none;
     padding: 10px 22px;
-    font-size: 13px;
+    font-size: 14px;
     border-radius: 5px;
     cursor: pointer;
 }
-
 .btn-secundario:hover,
 .btn-primario:hover {
     background-color: #d48e00;
 }
-
 .formulario-cita {
+    margin-right: 40px;
     background-color: #e0115f;
     border-radius: 6px;
     padding: 20px;
@@ -136,7 +136,6 @@ body{
     flex-direction: column;
     gap: 10px;
 }
-
 .formulario-cita h3 {
     font-size: 16px;
     font-weight: bold;
@@ -144,12 +143,10 @@ body{
     margin-bottom: 5px;
     text-align: center;
 }
-
 .fila-formulario {
     display: flex;
     gap: 10px;
 }
-
 .formulario-cita input,
 .formulario-cita textarea {
     width: 100%;
