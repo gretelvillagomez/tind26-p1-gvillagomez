@@ -14,19 +14,16 @@ body{
     padding: 0 20px;
     height: 55px;
 }
-
 .logo-sitio h3 {
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
 }
-
 .navegacion-principal ul {
     list-style: none;
     display: flex;
     gap: 5px;
 }
-
 .navegacion-principal ul li a {
     color: #ffffff;
     text-decoration: none;
@@ -206,11 +203,9 @@ body{
     padding: 30px 50px;
     border-right: 1px solid #dddddd;
 }
-
 .servicio-item:last-child {
     border-right: none;
 }
-
 .servicio-item span {
     display: flex;
     align-items: center;
@@ -227,7 +222,10 @@ body{
     color: #333333;
     font-size: 13px;
 }
-footer{
-    background-color: blueviolet;
-    color: white;
+.pie-sitio {
+    background-color: #970672;
+    text-align: center;
+    padding: 14px;
+    color: #ffffff;
+    font-size: 13px;
 }
